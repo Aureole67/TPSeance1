@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Design</title>
+    <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700&display=swap" rel="stylesheet">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+    tailwind.config = {
+        theme: {
+        extend: {
+            fontFamily: {
+            syne: ['"Syne"', 'sans-serif'],            },
+        },
+        },
+    }
+    </script>
+
+    <link href="./css/output.css" rel="stylesheet" />
+</head>
+<body class="bg-gradient-to-r from-gray-200 to-white">
+
+    <header class="flex justify-between gap-20 bg-white  items-center mx-20 my-14 p-4 rounded-lg">
+
+        <nav class="flex flex-row items-center gap-45">
+
+            <img src="./assets/images/image.png" alt="logo" class="w-[206px] h-[54]">
+
+            <ul class="flex flex-row gap-10">
+
+                <li>Home</li>
+                <li>Products</li>
+                <li>Features</li>
+                <li>Gear shop</li>
+
+            </ul>
+
+        </nav>
+
+        <button class="bg-[#E9FF61] flex w-[158px] y-[58px] pt-4.5 pr-5 pb-4.5 pl-5 items-center gap-3">
+
+            <p class="text-lg ">Order now</p>
+
+            <img src="./assets/images/Vector1.png" alt="vecteur" class="w-3.5 h-3.5">
+        </button>
+
+    </header>
+
+    <main>
+        <section>
+
+            <div>
+                <h1 class="font-syne font-semibold text-[236px] leading-[100%] tracking-[4%] text-center mb-24">SMOOTH</h1>
+
+                <h1 class="font-syne font-semibold text-[236px] leading-[100%] tracking-[4%] text-center text-[#E9E9E9]">EV CARS</h1>
+
+                <img src="./assets/images/car.png" alt="car" class="w-[821px] h-[398px] -mt-120 ml-80">
+
+            </div>
+
+            <div class="grid grid-cols-3 mt-32 mx-20">
+
+                <div class="flex items-center">
+
+                    <h1 class="text-[80px]">14</h1>
+                    <h1 class="text-[80px]">M</h1>
+
+                    <p class="text-gray-300 w-[160px] text-2xl">Battery Cost Reduction</p>
+
+                </div>
+
+                <div class="flex items-center">
+
+                    <h1 class="text-[80px]">89</h1>
+
+                    <h1 class="text-[80px]">%</h1>
+                    <p class="text-gray-300 w-[160px] text-2xl">Battery Cost Reduction</p>
+                    
+                </div>
+
+                <div class="flex items-center">
+
+                    <h1 class="text-[80px]">1.2</h1>
+
+                    <h1 class="text-[80px]">M</h1>
+
+                    <p class="text-gray-300 w-[160px] text-2xl">Charging infrastructure  Expansion</p>
+                    
+                </div>
+            </div>
+            
+        </section>
+
+        <section class="mt-32">
+
+            <div class="w-[162px] h-[42px] bg-[#EDF2F6] text-lg mx-auto text-center p-3">
+                Versatile Power
+            </div>
+
+            <h2 class="font-syne text-6xl mx-auto text-center mt-10">Discover Our Multi-functional chargers</h2>
+
+            <div class="grid grid-cols-3 mx-20 mt-10">
+                <div>
+
+                    <img src="./assets/images/el.png" alt="electrique" class="w-[370px] h-[445.85px]">
+
+                    <div>
+                        <h3 class="font-syne text-2xl">Home Smart Charger</h3>
+
+                        <p class="font-syne text-lg text-gray-300 w-[370px]">A lightweight, travel-friendly Level 1 charger designed for convenience. Plugs into standard wall outlets.</p>
+
+                    </div>
+
+                    <div class="flex">
+                        <p class="font-syne text-2xl text-gray-300">$999</p>
+                        <p class="font-syne text-2xl">$599</p>
+                    </div>
+                    
+                </div>
+
+                <div>
+                    <img src="./assets/images/charge.png" alt="electrique" class="w-[370px] h-[445.85px]">
+
+                    <div>
+                        <h3 class="font-syne text-2xl">Portable EV Charger</h3>
+
+                        <p class="font-syne text-lg text-gray-300 w-[370px]">A lightweight, travel-friendly Level 1 charger designed for convenience. Plugs into standard wall outlets.</p>
+
+                    </div>
+
+                    <div class="flex">
+                        <p class="font-syne text-2xl text-gray-300">$599</p>
+                        <p class="font-syne text-2xl">$299</p>
+                    </div>
+                </div>
+
+                <div>
+                    <img src="./assets/images/elc.png" alt="electrique" class="w-[370px] h-[445.85px]">
+
+                    <div>
+                        <h3 class="font-syne text-2xl">Ultra-Fast Public Charging Station</h3>
+
+                        <p class="font-syne text-lg text-gray-300 w-[370px]">A high-power Level 3 DC fast charger for public and commercial locations. Equipped with dual ports.</p>
+
+                    </div>
+
+                    <div class="flex">
+                        <p class="font-syne text-2xl text-gray-300">$20,999</p>
+                        <p class="font-syne text-2xl">$12,999</p>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        
+        <section class="mt-32">
+
+            <div>
+
+                <div class="w-[162px] h-[42px] bg-[#EDF2F6] text-lg p-3 ml-20">
+                    Our story
+                </div>
+
+                <div class="flex justify-between mx-20 mt-10">
+                    <h1 class="w-[817.6px] font-syne text-6xl">Powering a Greener Future,One Drive at a Time </h1>
+                    <p class="font-syne text-lg text-gray-300 w-[344px]">We are here to support your journey towards sustainable driving. Explore cutting-edge EV technology, a growing charging network, and exclusive resources designed to enhance your electric vehicle experience.</p>
+                </div>
+
+                <div  class="container mx-auto px-6 py-16 grid grid-cols-1 md:grid-cols-2 gap-8">
+                
+                    <div class="relative">
+      
+                        <img src="./assets/images/freepik__the-style-is-candid-image-photography-with-natural__55935 1.png" alt="Car video" class="w-full rounded-lg ">
+
+                        <img src="./assets/images/12.png" alt="ve" class="absolute inset-0 mt-34 ml-70 w-[60px] h-[60px] rounded-full flex items-center justify-center">
+      
+                        <div class="mt-20">
+                            <h2 class="font-syne text-4xl mb-10">Join a Connected Charging Network</h2>
+
+                            <p class="font-syne text-lg text-gray-300 w-[610px]">Be part of a growing network of EV drivers who share a passion for sustainability and innovation.</p>
+                        </div>
+                    </div>
+
+                    <div class="relative w-full  bg-cover bg-center h-[500px]" style="background-image: url('./assets/images/freepik__the-style-is-candid-image-photography-with-natural__55935\ 1.png')">
+  
+                        <div class="absolute bottom-10 left-10 bg-white/10 backdrop-blur-md text-white p-6 border border-white/20 w-[400px]">
+    
+                            <h2 class="text-2xl font-semibold mb-3">EVs For Everyone</h2>
+    
+                            <p class="text-sm mb-4">
+      
+                                From eco-conscious drivers to performance enthusiasts, we believe electric vehicles should be accessible and exciting for all.
+    
+                            </p>
+    
+                            <button class="bg-lime-300 hover:bg-lime-400 text-black px-4 py-2 font-medium">
+      
+                                Our Story
+    
+                            </button>
+  
+                        </div>
+
+                    </div>
+                </div>
+    
+            </div>
+        </section>
+
+
+        <section class="container mx-auto px-6 py-16 text-center">
+    
+            <div class="bg-[#EDF2F6] text-lg px-4 py-2 w-fit mx-auto rounded">Versatile Power</div>
+    
+            <h1 class="text-4xl font-bold mt-4 mb-8">Future-Ready Comfort</h1>
+
+    
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-16">
+      
+                <img src="./assets/images/image 2418.png" alt="Interior 1" class="w-full rounded-lg">
+      
+                <img src="./assets/images/image 2419.png" alt="Interior 2" class="w-full rounded-lg">
+      
+                <img src="./assets/images/image 2420.png" alt="Interior 3" class="w-full rounded-lg">
+    
+            </div>
+    
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
+
+                <form class="text-left space-y-4">
+        
+                    <h2 class="font-syne text-[42px] mb-10">Reserve Your EV Today!</h2>
+
+                    <div class="space-y-2 mb-15">
+                        <div class="flex gap-4">
+                            <label for="firstName" class="w-full font-syne text-lg">First Name</label>
+                            <label for="lastName" class="w-full font-syne text-lg">Last Name</label>
+                        </div>
+
+                        <div class="flex gap-4">
+                            <input id="firstName" type="text" placeholder="John" class="w-full p-3 border border-gray-300 bg-[#EDF2F6] rounded" />
+                            <input id="lastName" type="text" placeholder="Doe" class="w-full p-3 border border-gray-300 bg-[#EDF2F6] rounded" />
+                        </div>
+                    </div>
+
+                    <label for="email" class="w-full font-syne text-lg">Email</label>
+
+                    <input type="email" placeholder="Field email goes here" class="p-3 border border-gray-300 bg-[#EDF2F6] rounded w-full" />
+        
+                    <label for="message" class="w-full font-syne text-lg">Message</label>
+                    <textarea placeholder="Message" rows="4" class="p-3 border border-gray-300 bg-[#EDF2F6] rounded w-full"></textarea>
+        
+                    <button type="submit" class="bg-black text-[#E9FF61] px-6 py-3 rounded">Book Now</button>
+      
+                </form>
+      
+                <img src="./assets/images/image 2425.png" alt="EV Car" class="w-full">
+    
+            </div>
+  
+        </section>
+  
+        <footer class="bg-cover bg-center text-white py-12 px-6 h-[522px]" style="background-image: url('./assets/images/freepik__the-style-is-candid-image-photography-with-natural__55935\ 1.png')">
+    
+            <div class="bg-black bg-opacity-50 p-8 rounded-lg max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-5 gap-6 text-sm h-[422px]">
+      
+                <div>
+        
+                    <img src="./assets/images/img1.png" alt="Logo" class="w-24 mb-4">
+      
+                </div>
+
+                <div>
+        
+                    <h4 class="font-bold mb-2">Company</h4>
+        
+                    <ul class="space-y-1 text-gray-200">
+          
+                        <li>Features</li>
+          
+                        <li>Pricing</li>
+          
+                        <li>About Us</li>
+          
+                        <li>Contact</li>
+        
+                    </ul>
+      
+                </div>
+
+                <div>
+        
+                    <h4 class="font-bold mb-2">Resource</h4>
+        
+                    <ul class="space-y-1 text-gray-200">
+          
+                        <li>Blog</li>
+          
+                        <li>Customer Stories</li>
+          
+                        <li>Information</li>
+          
+                        <li>Legal</li>
+          
+                        <li>Payments</li>
+        
+                    </ul>
+    
+                </div>
+
+                <div>
+                    <h4 class="font-bold mb-2">Career</h4>
+                    <ul class="space-y-1 text-gray-200">
+                        <li>Jobs</li>
+                        <li>Hiring</li>
+                        <li>News</li>
+                        <li>Tips & Tricks</li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h4 class="font-bold mb-2">Help</h4>
+                    <ul class="space-y-1 text-gray-200">
+                        <li>FAQs</li>
+                        <li>Help Center</li>
+                        <li>Support</li>
+                    </ul>
+                </div>
+
+                <div class="mt-8 text-sm flex justify-between items-center text-gray-300 max-w-7xl mx-auto">
+      
+                    <p>© 2025</p>
+      
+                    <div class="space-x-4">
+        
+                        <a href="#">Term of Service</a>
+        
+                        <a href="#">Privacy Policy</a>
+      
+                    </div>
+    
+                </div>
+            </div>
+        </footer>
+    </main>
+</body>
+</html>
